@@ -1,0 +1,22 @@
+# binaries
+go-aws-athena
+
+# Mac stuff
+.DS_Store
+
+# Project
+vendor/
+dist/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
