@@ -1,5 +1,5 @@
 # binaries
-go-aws-athena
+aws-athena-query-counter
 
 # Mac stuff
 .DS_Store

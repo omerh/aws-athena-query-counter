@@ -1,4 +1,4 @@
-module go-aws-athena
+module aws-athena-query-counter
 
 go 1.14
 
