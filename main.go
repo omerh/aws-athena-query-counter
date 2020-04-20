@@ -22,6 +22,7 @@ func run() {
 	session, _ := session.NewSession(config)
 	svc := athena.New(session)
 	input := &athena.ListQueryExecutionsInput{}
+	// Not iterating on NextToken, because it saves all queries.
 	result, _ := svc.ListQueryExecutions(input)
 
 	var runningCounter int
